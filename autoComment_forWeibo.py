@@ -7,13 +7,13 @@ import pickle
 from selenium import webdriver
 from random import choice
 
-APP_KEY = "3186675918"
-APP_SECRET = "5d8529ae73fdd0f78368d0e04344b95b"
+APP_KEY = "input app key"
+APP_SECRET = "input app secret"
 
 REDIRECT_URL = "https://api.weibo.com/oauth2/default.html"
 
-username = "smallcorpse@hotmail.com"
-password = "l4g3s2b3lb"
+username = "input your account name"
+password = "input your account key"
 
 keywordseq = [
     "wokamon",
@@ -24,8 +24,8 @@ keywordseq = [
     "happy"
 ]
 
-Commentusername = "smallcorpse@hotmail.com"
-Commentpassword = "l4g3s2b3lb"
+Commentusername = "input your account name"
+Commentpassword = "input your account key"
 
 Commentseq = [
     u"随机从一个评论中选取一个进行评论",
